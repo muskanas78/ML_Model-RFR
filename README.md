@@ -1,4 +1,4 @@
-# House-Price-Prediction
+# House Price Prediction
 ## Overview
 This project involves predicting house prices based on selected features, within the dataset, using machine learning techniques. The objective is to build a reliable model that can estimate house prices based on these features.
 
