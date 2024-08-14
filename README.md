@@ -7,6 +7,7 @@ The features used for prediction include:
   1. Lot Area: The size of the property in square feet.
   2. BedroomAbvGr: The number of bedrooms above ground level.
   3. TBath: The total number of bathrooms, calculated by summing FullBath and HalfBath.
+
 A Linear Regression model with polynomial features was implemented to capture nonlinear relationships between the features and the sale price. The model was trained and tested using cross-validation to ensure its robustness.
 
 ## Results
