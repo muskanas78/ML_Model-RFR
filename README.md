@@ -1,14 +1,16 @@
-# House Price Prediction
-## Overview
-This project involves predicting house prices based on selected features, within the dataset, using machine learning techniques. The objective is to build a reliable model that can estimate house prices based on these features.
+House Price Prediction with Random Forest Regressor  
 
-## Features and Model
-The features used for prediction include:
-  1. Lot Area: The size of the property in square feet.
-  2. BedroomAbvGr: The number of bedrooms above ground level.
-  3. TBath: The total number of bathrooms, calculated by summing FullBath and HalfBath.
+### Project Overview  
+Predicts house prices using a Random Forest Regressor model after performing data cleaning, feature engineering, and hyperparameter tuning.  
 
-A Linear Regression model with polynomial features was implemented to capture nonlinear relationships between the features and the sale price. The model was trained and tested using cross-validation to ensure its robustness.
+### Key Steps  
+- **Data Cleaning**: Removed features with >10% null values and imputed remaining missing data  
+- **Feature Engineering**: Log-transformed skewed numerical features and label-encoded categorical variables  
+- **Model Training**: Optimized hyperparameters using RandomizedSearchCV  
+- **Evaluation**: Achieved **R2 score: 0.864**, **RMSE: 29,313**, and **MAE: 17,900**  
 
-## Results
-The model achieved a mean cross-validation score of approximately 0.37, indicating moderate performance. This outcome was anticipated given the use of only three features in the model. Predictions were made for new data points, with the estimated house price for a property with a lot area of 1500 square feet, 2 bedrooms, and 1 bathroom being approximately $105,253.96.
+### Results Interpretation  
+High R2 (0.864) indicates the model explains 86% of price variance, while MAE ($17,900) shows average prediction error is acceptable for real-world use.  
+
+### Conclusion  
+The model reliably predicts housing prices with strong metrics, making it suitable for practical applications.
