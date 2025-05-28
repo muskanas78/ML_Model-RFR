@@ -1,4 +1,4 @@
-# House Price Prediction with Random Forest Regression Algorithm 
+# House Price Prediction with Random Forest Regression
 
 ### Project Overview  
 Predicts house prices using a Random Forest Regressor model after performing data cleaning, feature engineering, and hyperparameter tuning.  
